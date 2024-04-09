@@ -5,3 +5,7 @@ This code builds upon the work presented in the publication titled "Comparisons 
 
 If you use this code, please cite both papers.
 
+# Utilization of the code
+Run the MainCode.ipynb
+If you would like to change the objective function among the options of LSO, EIP, EID models' objectives, go to powerutils -> models -> shortterm.py and choose one from line 197 to 209.
+If you would like to change the mapping function parameters, go to powerutils -> models -> shortterm.py and change them in lines from 41 to 56.
